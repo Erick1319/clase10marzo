@@ -1,0 +1,73 @@
+html,body {
+    /* modifica todo el html y body del documento */
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+    #main_wrapper{
+        /* modifica todo el contenedor de html */
+        min-height: 100%;
+        position:relative;
+    }
+        header{
+            /* modifica la cabecera del documento */
+        text-align: center;
+        height: 50px;
+        background-color: dimgray;
+        width: 100%;
+        word-spacing: 50px;
+        }
+        #menu{
+            /* modifica el espacio de menu en el area de nav */
+        height:50px;
+        padding-top: 10px;
+        }
+        nav li{
+            /* modifica el contenido en el área de nav, en el header */
+            display:inline;
+            background-color: dimgray;
+        }
+            li:hover{
+                /* modifica  el color de la lista que se encuentra en nav al momento de pasar el cursor sobre ella */
+                color: white;
+            }
+        h1{
+            /* cambia todos los encabezados h1 en el doc. */
+        font-size: 30px;
+        text-align:left;
+        }
+        h2,h3,h4,h5{
+            /* cambia todos los encabezados especificados */
+        text-align: left;
+        color: brown;
+        }
+#contents{
+    padding-bottom: 100px;
+    }
+        section{
+            /* modifica de forma global todas las secciones especificadas */
+            margin-top: 10px;
+            margin-left: 100px;
+            margin-bottom:10px;
+            margin-right:150px;
+        }
+            .section1{
+                /* modifica las características de las secciones que trabajen con la clase section1 */
+            text-align: justify;
+            font-size: 16px;
+            }
+            .section2{
+                /* modifica las secciones que trabajen con  la clase section2 */
+                text-align: right;
+                font-size: 12px;
+                }
+footer{
+    /* modifica los elementos que estén en el footer */
+text-align: center;
+background-color: dimgray;
+bottom: 0px;
+width: 100%;
+height: 50px;
+position:absolute;
+}
